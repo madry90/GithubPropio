@@ -14,13 +14,16 @@
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".DanceActivity"
-            android:label="@string/dance_music" />
+            android:label="@string/dance_music"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".IndieActivity"
-            android:label="@string/indie_music" />
+            android:label="@string/indie_music"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".SoundtracksActivity"
-            android:label="@string/soundtrack_music" />
+            android:label="@string/soundtrack_music"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,9 +5,9 @@ public class Songs {
     private String mNameOfSinger;
     private String mTitleOfSong;
 
-    public Songs(String NameOfSinger, String TitleOfSong) {
-        mNameOfSinger = NameOfSinger;
-        mTitleOfSong = TitleOfSong;
+    public Songs(String nameOfSinger, String titleOfSong) {
+        mNameOfSinger = nameOfSinger;
+        mTitleOfSong = titleOfSong;
     }
 
     public String getmNameOfSinger() {
